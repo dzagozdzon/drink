@@ -58,3 +58,20 @@ footer{
   display: block;
   margin-top:20px;
 }
+
+#drinks-show h2{
+  background:#f4f4f4;
+  padding:10px;
+}
+
+.drinks-show left{
+  float:left;
+  width:40%;
+}
+
+.drinks-show-right{
+  float: left;
+  width:60%;
+  margin-top:10px;
+}
+

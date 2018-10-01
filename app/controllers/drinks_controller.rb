@@ -1,5 +1,8 @@
 class DrinksController < ApplicationController
   def new
+    @page_title = 'Add Drink'
+    @drink = Drink.new
+    @category = Category.new
   end
 
   def create
